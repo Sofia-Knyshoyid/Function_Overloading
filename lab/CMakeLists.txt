@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.16)
 project(lab1Functions)
 
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_EXTENSIONS OFF)
 if (NOT CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
-    set(CMAKE_CXX_FLAGS "--std=c++17 -Wall -Wextra -pedantic")
+    set(CMAKE_CXX_FLAGS "--std=c++20 -Wall -Wextra -pedantic")
     set(COMPILER_DEBUG_FLAGS "-D_DEBUG")
     set(COMPILER_RELEASE_FLAGS "-O3 -DNDEBUG")
-    set(LINKER_FLAGS "--std=c++17")
+    set(LINKER_FLAGS "--std=c++20")
 endif()
 
 set(CMAKE_BUILD_TYPE Debug)
