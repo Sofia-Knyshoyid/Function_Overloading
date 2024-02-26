@@ -55,6 +55,8 @@ class NotCopyableType
 {
     NotCopyableType(const NotCopyableType&) = delete;
 public:
+    NotCopyableType(int number): number_(number)
+    {}
     const int number_; /// public on purpose
 };
 
