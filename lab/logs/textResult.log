@@ -1,0 +1,54 @@
+Running main() from /tmp/tmpp932sexa/student/lab/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from PrintingTester
+[ RUN      ] PrintingTester.singleInteger
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:45: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.singleInteger (0 ms)
+[ RUN      ] PrintingTester.singleDouble
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:61: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.singleDouble (0 ms)
+[ RUN      ] PrintingTester.printFraction
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:77: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.printFraction (0 ms)
+[ RUN      ] PrintingTester.printCstring
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:94: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.printCstring (0 ms)
+[ RUN      ] PrintingTester.printNotCopyableObject
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:111: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.printNotCopyableObject (0 ms)
+[ RUN      ] PrintingTester.printArrayOfNumbers
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:134: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.printArrayOfNumbers (0 ms)
+[ RUN      ] PrintingTester.printWithoutArgument
+/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:157: Failure
+Failed
+Function not implemented
+[  FAILED  ] PrintingTester.printWithoutArgument (0 ms)
+[----------] 7 tests from PrintingTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 7 tests, listed below:
+[  FAILED  ] PrintingTester.singleInteger
+[  FAILED  ] PrintingTester.singleDouble
+[  FAILED  ] PrintingTester.printFraction
+[  FAILED  ] PrintingTester.printCstring
+[  FAILED  ] PrintingTester.printNotCopyableObject
+[  FAILED  ] PrintingTester.printArrayOfNumbers
+[  FAILED  ] PrintingTester.printWithoutArgument
+
+ 7 FAILED TESTS
