@@ -20,7 +20,8 @@
  * 1. Zdefiniuj funkcję `print`, która przyjmie liczbę całkowitą, wyświetli ją oraz pustą linię.
  * Po zdefiniowaniu jej usuń poniższe makro:
  */
-#define UNIMPLEMENTED_printWithSingleInteger
+void print(int num);
+// #define UNIMPLEMENTED_printWithSingleInteger
 
 /**
  * 2. Zdefiniuj funkcję `print`, która przyjmie liczbę rzeczywistą, wyświetli ją oraz pustą linię.
