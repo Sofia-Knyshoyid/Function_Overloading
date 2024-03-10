@@ -1,54 +1,50 @@
 ==163== Memcheck, a memory error detector
 ==163== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==163== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==163== Command: /tmp/tmpp932sexa/student/lab/build//bin/tests
+==163== Command: /tmp/tmp6adb9wfk/student/lab/build//bin/tests
 ==163== 
-Running main() from /tmp/tmpp932sexa/student/lab/tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmp6adb9wfk/student/lab/tests/lib/googletest/src/gtest_main.cc
 [==========] Running 7 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 7 tests from PrintingTester
 [ RUN      ] PrintingTester.singleInteger
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:45: Failure
-Failed
-Function not implemented
-[  FAILED  ] PrintingTester.singleInteger (47 ms)
+[       OK ] PrintingTester.singleInteger (27 ms)
 [ RUN      ] PrintingTester.singleDouble
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:61: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:61: Failure
 Failed
 Function not implemented
-[  FAILED  ] PrintingTester.singleDouble (5 ms)
+[  FAILED  ] PrintingTester.singleDouble (32 ms)
 [ RUN      ] PrintingTester.printFraction
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:77: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:77: Failure
 Failed
 Function not implemented
-[  FAILED  ] PrintingTester.printFraction (2 ms)
+[  FAILED  ] PrintingTester.printFraction (5 ms)
 [ RUN      ] PrintingTester.printCstring
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:94: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:94: Failure
 Failed
 Function not implemented
 [  FAILED  ] PrintingTester.printCstring (2 ms)
 [ RUN      ] PrintingTester.printNotCopyableObject
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:111: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:111: Failure
 Failed
 Function not implemented
 [  FAILED  ] PrintingTester.printNotCopyableObject (2 ms)
 [ RUN      ] PrintingTester.printArrayOfNumbers
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:134: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:134: Failure
 Failed
 Function not implemented
 [  FAILED  ] PrintingTester.printArrayOfNumbers (3 ms)
 [ RUN      ] PrintingTester.printWithoutArgument
-/tmp/tmpp932sexa/student/lab/tests/printingTests.cpp:157: Failure
+/tmp/tmp6adb9wfk/student/lab/tests/printingTests.cpp:157: Failure
 Failed
 Function not implemented
 [  FAILED  ] PrintingTester.printWithoutArgument (2 ms)
-[----------] 7 tests from PrintingTester (81 ms total)
+[----------] 7 tests from PrintingTester (88 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (133 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 7 tests, listed below:
-[  FAILED  ] PrintingTester.singleInteger
+[==========] 7 tests from 1 test suite ran. (136 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 6 tests, listed below:
 [  FAILED  ] PrintingTester.singleDouble
 [  FAILED  ] PrintingTester.printFraction
 [  FAILED  ] PrintingTester.printCstring
@@ -56,11 +52,11 @@ Function not implemented
 [  FAILED  ] PrintingTester.printArrayOfNumbers
 [  FAILED  ] PrintingTester.printWithoutArgument
 
- 7 FAILED TESTS
+ 6 FAILED TESTS
 ==163== 
 ==163== HEAP SUMMARY:
 ==163==     in use at exit: 0 bytes in 0 blocks
-==163==   total heap usage: 446 allocs, 446 frees, 155,153 bytes allocated
+==163==   total heap usage: 421 allocs, 421 frees, 150,933 bytes allocated
 ==163== 
 ==163== All heap blocks were freed -- no leaks are possible
 ==163== 
