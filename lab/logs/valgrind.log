@@ -1,9 +1,9 @@
 ==163== Memcheck, a memory error detector
 ==163== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==163== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==163== Command: /tmp/tmpc262gkkc/student/lab/build//bin/tests
+==163== Command: /tmp/tmp4rzqf_fw/student/lab/build//bin/tests
 ==163== 
-Running main() from /tmp/tmpc262gkkc/student/lab/tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmp4rzqf_fw/student/lab/tests/lib/googletest/src/gtest_main.cc
 [==========] Running 7 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 7 tests from PrintingTester
@@ -12,47 +12,31 @@ Running main() from /tmp/tmpc262gkkc/student/lab/tests/lib/googletest/src/gtest_
 [ RUN      ] PrintingTester.singleDouble
 [       OK ] PrintingTester.singleDouble (28 ms)
 [ RUN      ] PrintingTester.printFraction
-/tmp/tmpc262gkkc/student/lab/tests/printingTests.cpp:77: Failure
-Failed
-Function not implemented
-[  FAILED  ] PrintingTester.printFraction (38 ms)
+[       OK ] PrintingTester.printFraction (5 ms)
 [ RUN      ] PrintingTester.printCstring
-/tmp/tmpc262gkkc/student/lab/tests/printingTests.cpp:94: Failure
-Failed
-Function not implemented
-[  FAILED  ] PrintingTester.printCstring (5 ms)
+[       OK ] PrintingTester.printCstring (4 ms)
 [ RUN      ] PrintingTester.printNotCopyableObject
-/tmp/tmpc262gkkc/student/lab/tests/printingTests.cpp:111: Failure
-Failed
-Function not implemented
-[  FAILED  ] PrintingTester.printNotCopyableObject (3 ms)
+[       OK ] PrintingTester.printNotCopyableObject (3 ms)
 [ RUN      ] PrintingTester.printArrayOfNumbers
-/tmp/tmpc262gkkc/student/lab/tests/printingTests.cpp:134: Failure
-Failed
-Function not implemented
-[  FAILED  ] PrintingTester.printArrayOfNumbers (3 ms)
+[       OK ] PrintingTester.printArrayOfNumbers (3 ms)
 [ RUN      ] PrintingTester.printWithoutArgument
-/tmp/tmpc262gkkc/student/lab/tests/printingTests.cpp:157: Failure
+/tmp/tmp4rzqf_fw/student/lab/tests/printingTests.cpp:157: Failure
 Failed
 Function not implemented
-[  FAILED  ] PrintingTester.printWithoutArgument (3 ms)
-[----------] 7 tests from PrintingTester (130 ms total)
+[  FAILED  ] PrintingTester.printWithoutArgument (32 ms)
+[----------] 7 tests from PrintingTester (128 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (186 ms total)
-[  PASSED  ] 2 tests.
-[  FAILED  ] 5 tests, listed below:
-[  FAILED  ] PrintingTester.printFraction
-[  FAILED  ] PrintingTester.printCstring
-[  FAILED  ] PrintingTester.printNotCopyableObject
-[  FAILED  ] PrintingTester.printArrayOfNumbers
+[==========] 7 tests from 1 test suite ran. (184 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
 [  FAILED  ] PrintingTester.printWithoutArgument
 
- 5 FAILED TESTS
+ 1 FAILED TEST
 ==163== 
 ==163== HEAP SUMMARY:
 ==163==     in use at exit: 0 bytes in 0 blocks
-==163==   total heap usage: 396 allocs, 396 frees, 146,713 bytes allocated
+==163==   total heap usage: 302 allocs, 302 frees, 131,144 bytes allocated
 ==163== 
 ==163== All heap blocks were freed -- no leaks are possible
 ==163== 

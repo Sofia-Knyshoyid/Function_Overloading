@@ -1,6 +1,6 @@
-/tmp/tmpc262gkkc/student/lab/printing.h:60:5: warning: Class 'NotCopyableType' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+/tmp/tmp4rzqf_fw/student/lab/printing.h:65:5: warning: Class 'NotCopyableType' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
     NotCopyableType(int number): number_(number)
     ^
-/tmp/tmpc262gkkc/student/lab/printing.cpp:17:0: warning: The function 'print' is never used. [unusedFunction]
+/tmp/tmp4rzqf_fw/student/lab/printing.cpp:17:0: warning: The function 'print' is never used. [unusedFunction]
 void print(int num)
 ^

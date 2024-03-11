@@ -6,9 +6,9 @@
 [ 57%] Built target gtest_main
 [ 71%] Building CXX object tests/CMakeFiles/tests.dir/printingTests.cpp.o
 [ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/printing.cpp.o
-/tmp/tmpc262gkkc/student/lab/printing.cpp:12:6: warning: #warning before C++23 is a GCC extension
+/tmp/tmp4rzqf_fw/student/lab/printing.cpp:12:6: warning: #warning before C++23 is a GCC extension
    12 |     #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym"
       |      ^~~~~~~
-/tmp/tmpc262gkkc/student/lab/printing.cpp:12:6: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+/tmp/tmp4rzqf_fw/student/lab/printing.cpp:12:6: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
 [100%] Linking CXX executable ../bin/tests
 [100%] Built target tests

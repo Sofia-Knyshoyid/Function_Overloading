@@ -1,117 +1,93 @@
 {
   "tests": 7,
-  "failures": 5,
+  "failures": 1,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2024-03-11T19:42:02Z",
-  "time": "0s",
+  "timestamp": "2024-03-11T21:58:20Z",
+  "time": "0.001s",
   "name": "AllTests",
   "testsuites": [
     {
       "name": "PrintingTester",
       "tests": 7,
-      "failures": 5,
+      "failures": 1,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2024-03-11T19:42:02Z",
+      "timestamp": "2024-03-11T21:58:20Z",
       "time": "0s",
       "testsuite": [
         {
           "name": "singleInteger",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 42,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
           "classname": "PrintingTester"
         },
         {
           "name": "singleDouble",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 58,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
           "classname": "PrintingTester"
         },
         {
           "name": "printFraction",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 74,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
-          "classname": "PrintingTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp:77\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "PrintingTester"
         },
         {
           "name": "printCstring",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 91,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
-          "classname": "PrintingTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp:94\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "PrintingTester"
         },
         {
           "name": "printNotCopyableObject",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 108,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
-          "classname": "PrintingTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp:111\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "PrintingTester"
         },
         {
           "name": "printArrayOfNumbers",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 126,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
-          "classname": "PrintingTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp:134\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "PrintingTester"
         },
         {
           "name": "printWithoutArgument",
-          "file": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp",
+          "file": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp",
           "line": 154,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-11T19:42:02Z",
+          "timestamp": "2024-03-11T21:58:20Z",
           "time": "0s",
           "classname": "PrintingTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpc262gkkc\/student\/lab\/tests\/printingTests.cpp:157\nFailed\nFunction not implemented",
+              "failure": "\/tmp\/tmp4rzqf_fw\/student\/lab\/tests\/printingTests.cpp:157\nFailed\nFunction not implemented",
               "type": ""
             }
           ]
