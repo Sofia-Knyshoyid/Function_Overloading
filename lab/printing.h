@@ -86,7 +86,8 @@ void print(const int* table, int size);
  * 7. Zdefiniuj funkcję `print`, która nie przyjmuje żadnych argumentów, a wyświetla jedynie nową linię.
  * Po zdefiniowaniu jej usuń makro:
  **/
-#define UNIMPLEMENTED_printWithoutArguments
+// #define UNIMPLEMENTED_printWithoutArguments
+void print(void);
 
 /** 8. [dla zaawansowanych] Zdefiniuj funckje `print`, która przyjmie dowolną ilość dowolnych argumentów dowolnego typu i je wyświetli oddzielając spacją.
  *     Funkcja powinna być zrobiona na jeden z dwóch sposobów:

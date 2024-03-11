@@ -49,3 +49,8 @@ void print(const int* table, int size)
     }
     cout << endl;
 }
+
+void print(void)
+{
+    cout << endl;
+}
