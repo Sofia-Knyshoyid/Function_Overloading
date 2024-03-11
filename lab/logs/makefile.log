@@ -4,11 +4,11 @@
 [ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 [ 57%] Linking CXX static library ../../../lib/libgtest_main.a
 [ 57%] Built target gtest_main
-[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/printing.cpp.o
-[ 85%] Building CXX object tests/CMakeFiles/tests.dir/printingTests.cpp.o
-/tmp/tmp6adb9wfk/student/lab/printing.cpp:12:6: warning: #warning before C++23 is a GCC extension
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/printingTests.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/printing.cpp.o
+/tmp/tmpc262gkkc/student/lab/printing.cpp:12:6: warning: #warning before C++23 is a GCC extension
    12 |     #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym"
       |      ^~~~~~~
-/tmp/tmp6adb9wfk/student/lab/printing.cpp:12:6: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+/tmp/tmpc262gkkc/student/lab/printing.cpp:12:6: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
 [100%] Linking CXX executable ../bin/tests
 [100%] Built target tests
