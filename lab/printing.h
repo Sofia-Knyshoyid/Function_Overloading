@@ -35,16 +35,21 @@ void print(int num);
  *    - Osoby zaawansowane mogą przeciążyć operator strumienia
  * Po zdefiniowaniu jej usuń poniższe makro:
  */
-#define UNIMPLEMENTED_printWithSingleFraction
+//#define UNIMPLEMENTED_printWithSingleFraction
 struct Fraction
 {
     int numerator_, denominator_;
 };
+
+void print(Fraction fraction);
+
 /**
  * 4. Zdefiniuj funkcję `print`, która przyjmie wskaźnik do tekstu, wyświetli go oraz pustą linię.
  * Po zdefiniowaniu jej usuń poniższe makro:
  */
-#define UNIMPLEMENTED_printWithSingleCString
+// #define UNIMPLEMENTED_printWithSingleCString
+
+void print(const char* wsk);
 
 /**
  * 5. Zdefiniuj funkcję `print`, która przyjmie obiekt niekopiowalnego typu `NotCopyableType`, oraz wyświetli go (tylko jego liczbę) oraz pustą linię.
@@ -52,7 +57,7 @@ struct Fraction
  *    - Podpowiedź: jak funkcje przyjmują w C i C++ - czy kopiują czy nie? Wykorzystaj tę wiedzę do zaimplementowania tego zadania.
  * Po zdefiniowaniu jej usuń poniższe makro:
  */
-#define UNIMPLEMENTED_printWithSingleNotCopyableObject
+// #define UNIMPLEMENTED_printWithSingleNotCopyableObject
 class NotCopyableType
 {
     NotCopyableType(const NotCopyableType&) = delete;
@@ -62,6 +67,8 @@ public:
     const int number_; /// public on purpose
 };
 
+void print(const NotCopyableType &ncpt);
+
 /**
  * 6. Zdefiniuj funkcję `print`, która przyjmie tablicę liczb (jeden argument to tablica, drugi to rozmiar tablicy).
  *    najlepiej aby liczby byly oddzielone przecinkami i spacjami (", "), ale aby na końcu linii nie było ", "
@@ -69,8 +76,10 @@ public:
  *    - osoby zaawansowane mogą spróbować nie podawać rozmiaru (zakładamy, że argumentem jest tablica o rozmiarze znanym w trakcie kompilacji)
  * Po zdefiniowaniu jej usuń jedno z makr (zależnie od tego czy podajemy rozmiar tablicy jako drugi argument, czy nie)
  **/
-#define UNIMPLEMENTED_printWithArrayOfNumbersAndSize
+//#define UNIMPLEMENTED_printWithArrayOfNumbersAndSize
 #define UNIMPLEMENTED_printWithArrayOfNumbersWithoutSize
+
+void print(const int* table, int size);
 
 
 /**
