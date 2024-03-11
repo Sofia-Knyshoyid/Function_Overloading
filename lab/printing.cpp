@@ -18,3 +18,8 @@ void print(int num)
 {
     cout << num << endl;
 }
+
+void print(double num)
+{
+    cout << num << endl;
+}

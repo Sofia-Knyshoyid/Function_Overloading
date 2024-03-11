@@ -27,7 +27,8 @@ void print(int num);
  * 2. Zdefiniuj funkcję `print`, która przyjmie liczbę rzeczywistą, wyświetli ją oraz pustą linię.
  * Po zdefiniowaniu jej usuń poniższe makro:
  */
-#define UNIMPLEMENTED_printWithSingleDouble
+ void print(double num);
+// #define UNIMPLEMENTED_printWithSingleDouble
 
 /**
  * 3. Zdefiniuj funkcję `print`, która przyjmie poniższą strukturę Fraction, wyświetli ją (format licznik/mianownik) oraz pustą linię.
