@@ -1,0 +1,1 @@
+/usr/bin/c++ --std=c++20 -Wall -Wextra -pedantic -g CMakeFiles/lab1Functions.dir/main.cpp.o CMakeFiles/lab1Functions.dir/printing.cpp.o -o bin/lab1Functions 

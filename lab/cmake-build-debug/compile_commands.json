@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ --std=c++20 -Wall -Wextra -pedantic -g -std=c++20 -o CMakeFiles/lab1Functions.dir/main.cpp.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/main.cpp",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/main.cpp"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ --std=c++20 -Wall -Wextra -pedantic -g -std=c++20 -o CMakeFiles/lab1Functions.dir/printing.cpp.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/printing.cpp",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/printing.cpp"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -std=c++20 -o tests/CMakeFiles/tests.dir/printingTests.cpp.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/printingTests.cpp",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/printingTests.cpp"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -std=c++20 -o tests/CMakeFiles/tests.dir/__/printing.cpp.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/printing.cpp",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/printing.cpp"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/include -I/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20 -o tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20 -o tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -I/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -I/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20 -o tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/cmake-build-debug",
+  "command": "/usr/bin/g++ -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/include -isystem /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest --std=c++20 -Wall -Wextra -pedantic -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20 -o tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/sofia/stored_data/cclass/bobottasks/pp2-lab1-printing/lab/tests/lib/googletest/src/gtest_main.cc"
+}
+]
